@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "borracha de caneta",
+    "price": 5
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/b3a49784-e4cd-4a08-be2a-2bb9dcc02ac5
+
+###
+
+PUT http://localhost:4002/products/d827fab1-5133-41e5-8fef-62c6b61529de
+Content-Type: application/json
+
+{
+    "name": "Caderno 96 folhas preto",
+    "price": 10.00
+}
+
+###
+
+DELETE http://localhost:4002/products/d827fab1-5133-41e5-8fef-62c6b61529de
